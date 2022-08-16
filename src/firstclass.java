@@ -14,6 +14,8 @@ public class firstclass {
 		driver.findElement(By.cssSelector("button[data-testid = 'royal_login_button']")).click();
 		
 		
+		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div[2]/div[2]/form/div/div[2]/div/div/input")).sendKeys("jhiuhj");
+		
 		
 		
 		
